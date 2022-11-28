@@ -33,7 +33,10 @@ button {
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgba($color: #fff, $alpha: 0.5);
+  &:hover {
+    color: white;
+  }
 }
 
 .app {
@@ -44,7 +47,7 @@ a {
 }
 
 .header {
-  width: 15%;
+  width: fit-content;
   background-color: rgba($color: #000, $alpha: 0.4);
 }
 

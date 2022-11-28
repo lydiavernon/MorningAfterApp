@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "../Header/Header.scss";
-import logo from "../../assets/morningafter.png";
+import logo from "../../assets/logo.png";
 
 const Header = () => {
   return (
@@ -14,10 +14,10 @@ const Header = () => {
           <h3 className="nav__link">ABOUT</h3>
         </Link>
         <Link to="/events">
-          <h3 className="nav__link">PROJECTS+EVENTS</h3>
+          <h3 className="nav__link">CREATIVE+EVENTS</h3>
         </Link>
         <Link to="/management">
-          <h3 className="nav__link">MANAGEMENT</h3>
+          <h3 className="nav__link">MGMT</h3>
         </Link>
         <Link to="/radio">
           <h3 className="nav__link">RADIO</h3>
@@ -28,7 +28,7 @@ const Header = () => {
       </nav>
       <article className="contact">
         <h3 className="contact__title">CONTACT</h3>
-        <p className="contact__text">info@morningafter.com</p>
+        <p className="contact__text">info@morningafternightbefore.com</p>
       </article>
     </div>
   );

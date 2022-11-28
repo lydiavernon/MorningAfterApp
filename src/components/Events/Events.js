@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Events = () => {
   return (
     <div className="container">
-      <h1>PROJECTS + EVENTS</h1>
+      <h1>CREATIVE + EVENTS</h1>
       <div className="events">
         <Link className="events__link" to="/events/bonesoda">
           BONESODA
