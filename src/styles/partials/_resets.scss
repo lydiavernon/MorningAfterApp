@@ -14,6 +14,8 @@ body {
   font-size: 1.6rem;
   margin: 0;
   padding: 0;
+  background-color: rgba($color: #000000, $alpha: 0.4);
+  text-transform: uppercase;
 }
 h1,
 h2,
@@ -47,11 +49,15 @@ a {
 }
 
 .header {
-  width: fit-content;
-  background-color: rgba($color: #000, $alpha: 0.4);
+  width: 30rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  // background-color: rgba($color: #000, $alpha: 0.4);
 }
 
 .main {
+  margin-left: 30rem;
   width: 85%;
 }
 
@@ -62,4 +68,24 @@ a {
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
+}
+
+.img-tag {
+  color: rgba($color: red, $alpha: 0.7);
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+.img-tag--lower {
+  top: 80px;
+}
+
+.bio-text {
+  margin-bottom: 1.6rem;
+  line-height: 3.6rem;
+  color: rgba($color: yellow, $alpha: 0.7);
+  font-size: 2.4rem;
 }

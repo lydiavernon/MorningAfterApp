@@ -9,9 +9,11 @@ const BoneSoda = () => {
   return (
     <div className="bonesoda__wrap">
       <Nav />
-      <h1 className="bonesoda__title">BONESODA</h1>
       <section className="bonesoda">
-        <h3 className="bonesoda__title">Bone Soda</h3>
+        <h1 className="bonesoda__title">BONESODA</h1>
+        <p className="bio-text">
+          A&R + Music Curation: Spotify Playlist, NTS Show
+        </p>
         <iframe
           title="soundcloud 2"
           src="https://open.spotify.com/embed/playlist/6dMYyVll7vv9LBGtLS0Ohd?utm_source=generator"
@@ -31,36 +33,12 @@ const BoneSoda = () => {
           allow="autoplay"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1286323927&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
         ></iframe>
-        <div>
-          <a
-            href="https://soundcloud.com/bone_soda"
-            title="BONE SODA"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            BONE SODA
-          </a>{" "}
-          ·{" "}
-          <a
-            href="https://soundcloud.com/bone_soda/sets/nts-radio-2021"
-            title="NTS RADIO 2021 ノノ"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            NTS RADIO 2021 ノノ
-          </a>
-        </div>
+        <p className="bio-text">
+          Production, Programming + Events coordination:
+        </p>
+
         <section className="bonesoda__videos">
-          <article>
-            <video
-              className="bonesoda__video"
-              autoPlay
-              muted
-              loop
-              src={bonesoda1}
-            ></video>
-          </article>
-          <article>
+          <article className="bonesoda__video-wrap">
             <video
               className="bonesoda__video"
               autoPlay
@@ -68,8 +46,19 @@ const BoneSoda = () => {
               loop
               src={bonesoda2}
             ></video>
+            <h3 className="img-tag">Paris Texas interview</h3>
           </article>
-          <article>
+          <article className="bonesoda__video-wrap">
+            <video
+              className="bonesoda__video"
+              autoPlay
+              muted
+              loop
+              src={bonesoda1}
+            ></video>
+            <h3 className="img-tag">PinkPantheress Interview</h3>
+          </article>
+          <article className="bonesoda__video-wrap">
             <video
               className="bonesoda__video"
               autoPlay
@@ -77,6 +66,7 @@ const BoneSoda = () => {
               loop
               src={bonesoda3}
             ></video>
+            <h3 className="img-tag">Dexter live session</h3>
           </article>
         </section>
       </section>

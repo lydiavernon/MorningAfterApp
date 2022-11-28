@@ -5,8 +5,8 @@ import logo from "../../assets/logo.png";
 const Header = () => {
   return (
     <div className="header">
+      <img className="logo" src={logo} alt="logo" />
       <nav className="nav">
-        <img className="logo" src={logo} alt="logo" />
         <Link to="/">
           <h3 className="nav__link">HOME</h3>
         </Link>

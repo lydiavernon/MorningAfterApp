@@ -1,5 +1,9 @@
 .about {
-  background-color: rgba($color: #000000, $alpha: 0.2);
   height: 100vh;
   color: white;
+
+  &__text {
+    margin: 30vh 2.4rem;
+    line-height: 3.6rem;
+  }
 }
