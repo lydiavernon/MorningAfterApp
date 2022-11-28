@@ -28,8 +28,7 @@ const Header = () => {
       </nav>
       <article className="contact">
         <h3 className="contact__title">CONTACT</h3>
-        <p className="contact__text">greg@morningafter.com</p>
-        <p className="contact__text">07951736439</p>
+        <p className="contact__text">info@morningafter.com</p>
       </article>
     </div>
   );
