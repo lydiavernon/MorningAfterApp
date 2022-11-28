@@ -9,6 +9,7 @@ const BoneSoda = () => {
     <section className="bonesoda">
       <h3 className="bonesoda__title">Bone Soda</h3>
       <iframe
+        title="soundcloud 2"
         src="https://open.spotify.com/embed/playlist/6dMYyVll7vv9LBGtLS0Ohd?utm_source=generator"
         width="100%"
         height="380"
@@ -18,6 +19,7 @@ const BoneSoda = () => {
         loading="lazy"
       ></iframe>
       <iframe
+        title="soundcloud 1"
         width="100%"
         height="450"
         scrolling="no"
@@ -30,6 +32,7 @@ const BoneSoda = () => {
           href="https://soundcloud.com/bone_soda"
           title="BONE SODA"
           target="_blank"
+          rel="noopener noreferrer"
         >
           BONE SODA
         </a>{" "}
@@ -38,6 +41,7 @@ const BoneSoda = () => {
           href="https://soundcloud.com/bone_soda/sets/nts-radio-2021"
           title="NTS RADIO 2021 ノノ"
           target="_blank"
+          rel="noopener noreferrer"
         >
           NTS RADIO 2021 ノノ
         </a>
