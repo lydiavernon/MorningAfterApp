@@ -13,6 +13,7 @@ const Stussy = () => {
   return (
     <div className="stussy__wrap">
       <Nav />
+      <h1 className="stussy__title">STUSSY</h1>
       <section className="stussy">
         <div className="wrapper">
           <article className="stussy__video">

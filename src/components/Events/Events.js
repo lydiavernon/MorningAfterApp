@@ -19,6 +19,9 @@ const Events = () => {
         <Link className="events__link" to="/events/alwaysdowhatyoushoulddo">
           ALWAYS DO WHAT YOU SHOULD DO
         </Link>
+        <Link className="events__link" to="/events/dsm">
+          DSM
+        </Link>
       </div>
     </div>
   );

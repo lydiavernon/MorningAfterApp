@@ -11,6 +11,7 @@ import BoneSoda from "./components/BoneSoda/BoneSoda";
 import Stussy from "./components/Stussy/Stussy";
 import Carhartt from "./components/Carhartt/Carhartt";
 import Always from "./components/Always/Always";
+import DSM from "./components/DSM/DSM";
 
 function App() {
   //morning after app
@@ -31,6 +32,7 @@ function App() {
               path="/events/alwaysdowhatyoushoulddo"
               element={<Always />}
             ></Route>
+            <Route path="/events/DSM" element={<DSM />}></Route>
             <Route path="/radio" element={<Radio />}></Route>
             <Route path="/management" element={<Management />}></Route>
           </Routes>
