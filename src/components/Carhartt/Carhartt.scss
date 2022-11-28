@@ -1,0 +1,15 @@
+.carhartt {
+  background-color: rgba($color: #000000, $alpha: 0.2);
+  min-height: 100vh;
+  max-height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  &__img-wrap {
+    width: 33%;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
