@@ -9,6 +9,9 @@ const DSM = () => {
     <div className="dsm__wrap">
       <Nav />
       <h1 className="DSM__title">DSM</h1>
+      <p className="bio-text">
+        Music curation, brand activation: Photo London 22 in-store event{" "}
+      </p>
       <div className="dsm">
         <article className="dsm__img-wrap">
           <img className="dsm__img" src={dsm1} alt="dsm event" />
