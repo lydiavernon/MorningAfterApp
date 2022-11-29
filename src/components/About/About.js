@@ -20,7 +20,7 @@ const About = () => {
         brand strategy, talent management and event planning. The team comprises
         of young industry insiders and experts with backgrounds in design, music
         and entertainment. Persistently striving to find better ways to connect
-        new audiences with the next generation of creatives and brands a like.
+        new audiences with the next generation of creatives and brands alike.
       </h3>
       <div className="collaborators">
         <h3 className="collaborators__title">Collaborators</h3>

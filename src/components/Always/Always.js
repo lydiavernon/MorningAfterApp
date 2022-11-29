@@ -9,11 +9,14 @@ const Always = () => {
     <div className="always__wrap">
       <Nav />
       <h1 className="always__title">ALWAYS DO WHAT YOU SHOULD DO</h1>
-      <p className="bio-text">
+      <p className=" bio-text">
         Brand activation, Event production: pop-up, Biarritz premiere +
         afterparties
       </p>
       <div className="always">
+        <article className="always__img-wrap always__img-wrap-scale">
+          <img className="always__img" src={always4} alt="always event" />
+        </article>
         <article className="always__img-wrap">
           <img className="always__img" src={always1} alt="always event" />
         </article>
@@ -26,9 +29,7 @@ const Always = () => {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-        <article className="always__img-wrap">
-          <img className="always__img" src={always4} alt="always event" />
-        </article>
+
         <iframe
           width="560"
           height="315"
