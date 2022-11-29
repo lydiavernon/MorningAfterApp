@@ -10,8 +10,8 @@ const Always = () => {
       <Nav />
       <h1 className="always__title">ALWAYS DO WHAT YOU SHOULD DO</h1>
       <p className="bio-text">
-        Brand activation, Event production: Always pop- up and party, Biarritz
-        premiere and party, collaborative tee
+        Brand activation, Event production: pop-up, Biarritz premiere +
+        afterparties
       </p>
       <div className="always">
         <article className="always__img-wrap">

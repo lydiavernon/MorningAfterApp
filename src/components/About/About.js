@@ -6,11 +6,15 @@ import logo3 from "../../assets/collaborators/logo3.png";
 import logo4 from "../../assets/collaborators/logo4.png";
 import logo5 from "../../assets/collaborators/logo5.jpg";
 import logo6 from "../../assets/collaborators/logo6.png";
+import logo from "../../assets/logo.png";
 
 const About = () => {
   return (
     <div className="about">
       <h1 className="about__title">ABOUT</h1>
+      <article className="about__logo">
+        <img src={logo} alt="morningafter" className="about__img" />
+      </article>
       <h3 className="about__text">
         Morning After Night Before is a creative collective specialising in
         brand strategy, talent management and event planning. The team comprises

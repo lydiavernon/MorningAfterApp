@@ -1,5 +1,5 @@
 import React from "react";
-import videobackground from "../../assets/stussy1.mp4";
+import videobackground from "../../assets/events/stussy/stussyvideocut.mp4";
 import "./Home.scss";
 
 const Home = () => {
