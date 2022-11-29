@@ -9,8 +9,8 @@ const BoneSoda = () => {
   return (
     <div className="bonesoda__wrap">
       <Nav />
+      <h1 className="bonesoda__title">BONESODA</h1>
       <section className="bonesoda">
-        <h1 className="bonesoda__title">BONESODA</h1>
         <p className="bio-text">
           A&R + Music Curation: Spotify Playlist, NTS Show
         </p>

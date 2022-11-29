@@ -1,5 +1,6 @@
 .carhartt {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 
   &__wrap {
@@ -9,7 +10,8 @@
   }
 
   &__img-wrap {
-    width: 33%;
+    width: 50%;
+    position: relative;
   }
 
   &__img {

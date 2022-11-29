@@ -10,9 +10,11 @@ const Management = () => {
       <section className="management__main">
         <article className="management__img-wrap">
           <img className="management__img" src={mgmt1} alt="always event" />
+          <p className="img-tag">Jeshi - Tour management + dj</p>
         </article>
         <article className="management__img-wrap">
           <img className="management__img" src={mgmt2} alt="always event" />
+          <p className="img-tag">Jawnino - management</p>
         </article>
       </section>
     </div>
