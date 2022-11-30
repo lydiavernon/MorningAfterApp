@@ -1,7 +1,6 @@
 import React from "react";
 import "./Always.scss";
 import always1 from "../../assets/events/always/always1.jpg";
-// import always4 from "../../assets/events/always/always4.jpg";
 import biarritz from "../../assets/events/always/biarritz.mp4";
 import biarritzparty from "../../assets/events/always/biarritzparty.mp4";
 
@@ -20,10 +19,6 @@ const Always = () => {
         <article className="always__img-wrap always__video">
           <video className="always__img" src={biarritzparty} controls></video>
         </article>
-
-        {/* <article className="always__img-wrap always__img-wrap-scale">
-          <img className="always__img" src={always4} alt="always event" />
-        </article> */}
         <article className="always__img-wrap">
           <img className="always__img" src={always1} alt="always event" />
         </article>
