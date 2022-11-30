@@ -7,11 +7,11 @@ const Events = () => {
     <div className="container">
       <h1>CREATIVE + EVENTS</h1>
       <div className="events">
-        <Link className="events__link" to="/events/bonesoda">
-          BONESODA
-        </Link>
         <Link className="events__link" to="/events/stussy">
           STUSSY
+        </Link>
+        <Link className="events__link" to="/events/bonesoda">
+          BONESODA
         </Link>
         <Link className="events__link" to="/events/carhartt">
           CARHARTT

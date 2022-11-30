@@ -1,12 +1,16 @@
 import { Link } from "react-router-dom";
 import "../Header/Header.scss";
 import logo from "../../assets/logo.png";
+import ig from "../../assets/instagram.svg";
+import mail from "../../assets/mail.svg";
 
 const Header = () => {
   return (
     <div className="header">
       <nav className="nav">
-        <img className="logo" src={logo} alt="logo" />
+        <Link to="/">
+          <img className="logo" src={logo} alt="logo" />
+        </Link>
         <Link to="/">
           <h3 className="nav__link">HOME</h3>
         </Link>
@@ -29,6 +33,22 @@ const Header = () => {
       <article className="contact">
         <h3 className="contact__title">CONTACT</h3>
         <p className="contact__text">info@morningafternightbefore.com</p>
+        <div className="contact__icons">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=info@morningafternightbefore.com&su=subject_here&body=body_here"
+            target="blank"
+            rel="noopener"
+          >
+            <img src={mail} alt="instagram" className="contact__yt" />
+          </a>
+          <a
+            href="https://instagram.com/morningafternightbefore"
+            target="blank"
+            rel="noopener"
+          >
+            <img src={ig} alt="instagram" className="contact__ig" />
+          </a>
+        </div>
       </article>
     </div>
   );
